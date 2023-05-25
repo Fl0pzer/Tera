@@ -340,30 +340,3 @@ button:hover {
 .product-container {
   grid-template-columns: repeat(1, 1fr);
 }
-
-@media screen and (min-width: 769px) {
-/* Styles pour les écrans de largeur minimale de 769px (écrans larges) */
-.banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar {
-  flex-direction: row;
-}
-
-.navbar ul {
-  flex-direction: row;
-}
-
-.content {
-  text-align: left;
-}
-
-.product-container {
-  grid-template-columns: repeat(3, 1fr);
-}
-}
-
-
